@@ -1,0 +1,16 @@
+{
+  "name": "Email to HTML",
+  "id": "email-to-html-agent",
+  "api": "1.0.0",
+  "main": "dist/main.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma"],
+  "networkAccess": {
+    "allowedDomains": [
+      "https://generativelanguage.googleapis.com"
+    ],
+    "devAllowedDomains": [
+      "http://localhost:3000"
+    ]
+  }
+}

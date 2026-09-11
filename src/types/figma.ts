@@ -1,0 +1,31 @@
+export interface ExtractedNode {
+  id: string
+  type: string
+  name: string
+  x: number
+  y: number
+  width: number
+  height: number
+  characters?: string
+  fontSize?: any
+  fontName?: any
+  fills?: any
+  lineHeight?: any
+  letterSpacing?: any
+  textAlignHorizontal?: string
+  strokes?: any
+  cornerRadius?: any
+  opacity?: number
+  layoutMode?: string
+  paddingTop?: number
+  paddingBottom?: number
+  paddingLeft?: number
+  paddingRight?: number
+  itemSpacing?: number
+  primaryAxisAlignItems?: string
+  counterAxisAlignItems?: string
+  children?: ExtractedNode[]
+  effects?: any[]
+  blendMode?: string
+  rotation?: number
+}
